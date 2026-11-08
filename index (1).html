@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Web Development, SEO & Ads Agency | Get a Free Consultation</title>
+<meta name="description" content="Digital marketing and IT agency offering website development, SEO, Meta Ads and Google Ads. Get more leads and sales. Book a free consultation.">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WFP2PC7W');</script>
+<!-- End Google Tag Manager -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --bg:#F3F6FB; --surface:#FFFFFF; --ink:#0F2A4A; --muted:#51647D;
+  --brand:#2D5BFF; --brand-dark:#1D43D6; --sun:#FFB020; --line:#D9E1EE;
+  --r:14px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{font-family:'DM Sans',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:'Bricolage Grotesque','DM Sans',sans-serif;line-height:1.1;letter-spacing:-.02em}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--sun);outline-offset:3px;border-radius:6px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+
+/* Header */
+header{position:sticky;top:0;z-index:20;background:rgba(243,246,251,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:1.35rem;text-decoration:none}
+.logo span{color:var(--brand)}
+.nav nav{display:flex;gap:26px;align-items:center}
+.nav nav a{text-decoration:none;font-weight:500;color:var(--muted)}
+.nav nav a:hover{color:var(--ink)}
+
+/* Buttons */
+.btn{display:inline-block;background:var(--brand);color:#fff;font-weight:700;border:0;border-radius:10px;padding:14px 26px;font-size:1rem;cursor:pointer;text-decoration:none;font-family:inherit;transition:background .2s,transform .2s}
+.btn:hover{background:var(--brand-dark);transform:translateY(-2px)}
+.btn:disabled{opacity:.65;cursor:wait;transform:none}
+.btn.ghost{background:transparent;color:var(--ink);border:2px solid var(--ink)}
+.btn.ghost:hover{background:var(--ink);color:#fff}
+.btn.sm{padding:10px 18px;font-size:.95rem}
+
+/* Hero */
+.hero{padding:72px 0 84px}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
+.hero h1{font-size:clamp(2.4rem,5.6vw,4.2rem);font-weight:800}
+.hero h1 em{font-style:normal;background:linear-gradient(transparent 62%,var(--sun) 62%)}
+.hero p.lead{margin:22px 0 32px;font-size:1.15rem;color:var(--muted);max-width:52ch}
+.cta-row{display:flex;gap:14px;flex-wrap:wrap}
+.trust{margin-top:34px;display:flex;gap:22px;flex-wrap:wrap;color:var(--muted);font-size:.95rem}
+.trust b{color:var(--ink)}
+
+/* Hero panel: leads growth */
+.panel{background:var(--ink);color:#fff;border-radius:22px;padding:26px;box-shadow:0 30px 60px -30px rgba(15,42,74,.6)}
+.panel .row{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:18px}
+.panel small{color:#9FB3D1}
+.panel .big{font-family:'Bricolage Grotesque',sans-serif;font-size:2.4rem;font-weight:800}
+.panel .up{color:var(--sun);font-weight:700}
+.bars{display:flex;align-items:flex-end;gap:10px;height:150px}
+.bars i{flex:1;background:#2A4A78;border-radius:6px 6px 0 0;height:0;animation:grow .9s cubic-bezier(.2,.8,.2,1) forwards}
+.bars i:last-child{background:var(--sun)}
+.bars i:nth-child(1){--h:28%}.bars i:nth-child(2){--h:38%;animation-delay:.08s}
+.bars i:nth-child(3){--h:46%;animation-delay:.16s}.bars i:nth-child(4){--h:60%;animation-delay:.24s}
+.bars i:nth-child(5){--h:74%;animation-delay:.32s}.bars i:nth-child(6){--h:100%;animation-delay:.4s}
+@keyframes grow{to{height:var(--h)}}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}
+.chips span{border:1px solid #2A4A78;border-radius:99px;padding:5px 12px;font-size:.85rem;color:#C9D6EA}
+
+/* Services */
+section{padding:84px 0}
+.head{max-width:640px;margin-bottom:44px}
+.head h2{font-size:clamp(1.9rem,4vw,2.8rem);font-weight:800}
+.head p{margin-top:12px;color:var(--muted);font-size:1.08rem}
+.services{background:var(--surface);border-block:1px solid var(--line)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:var(--bg);border:1px solid var(--line);border-radius:var(--r);padding:30px}
+.card .ic{width:48px;height:48px;border-radius:12px;background:var(--brand);display:grid;place-items:center;margin-bottom:20px}
+.card:nth-child(2) .ic{background:var(--ink)}
+.card:nth-child(3) .ic{background:var(--sun)}
+.card:nth-child(3) .ic svg{stroke:var(--ink)}
+.ic svg{width:24px;height:24px;stroke:#fff;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.card h3{font-size:1.4rem;margin-bottom:10px}
+.card p{color:var(--muted);margin-bottom:16px}
+.card ul{list-style:none;display:grid;gap:7px;font-size:.97rem}
+.card li{padding-left:22px;position:relative}
+.card li::before{content:"";position:absolute;left:0;top:.55em;width:10px;height:6px;border-left:2px solid var(--brand);border-bottom:2px solid var(--brand);transform:rotate(-45deg) translateY(-50%)}
+
+/* Contact */
+.contact .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:start}
+.contact .info h2{font-size:clamp(1.9rem,4vw,2.8rem);font-weight:800;margin-bottom:14px}
+.contact .info p{color:var(--muted);margin-bottom:22px}
+.points{list-style:none;display:grid;gap:12px;font-weight:500}
+.points li::before{content:"✓";display:inline-grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--sun);color:var(--ink);font-weight:800;font-size:.8rem;margin-right:10px}
+form{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:32px;display:grid;gap:18px;box-shadow:0 24px 50px -34px rgba(15,42,74,.45)}
+.f2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+label{display:grid;gap:6px;font-weight:700;font-size:.93rem}
+input,select,textarea{font:inherit;font-weight:400;padding:13px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);width:100%}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--brand);box-shadow:0 0 0 3px rgba(45,91,255,.2)}
+textarea{min-height:120px;resize:vertical}
+.hp{position:absolute;left:-9999px}
+#status{min-height:1.4em;font-weight:700;font-size:.98rem}
+#status.ok{color:#0E8A4F}#status.err{color:#C62828}
+
+footer{background:var(--ink);color:#B7C6DD;padding:30px 0;text-align:center;font-size:.93rem}
+
+@media(max-width:860px){
+  .hero .wrap,.contact .wrap{grid-template-columns:1fr;gap:40px}
+  .grid{grid-template-columns:1fr}
+  .nav nav a:not(.btn){display:none}
+  .hero{padding:44px 0 56px}section{padding:60px 0}
+}
+@media(max-width:520px){.f2{grid-template-columns:1fr}form{padding:22px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.bars i{height:var(--h)}}
+</style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WFP2PC7W" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header>
+  <div class="wrap nav">
+    <a href="#home" class="logo">Growth<span>Craft</span></a>
+    <nav aria-label="Main">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="btn sm">Get a Free Consultation</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="wrap">
+    <div>
+      <h1>Websites that rank. Ads that <em>bring buyers.</em></h1>
+      <p class="lead">We build fast websites, grow your search traffic, and run Meta and Google Ads that turn clicks into enquiries. One team, one plan, measurable results.</p>
+      <div class="cta-row">
+        <a href="#contact" class="btn" id="heroCta">Get a Free Consultation</a>
+        <a href="#services" class="btn ghost">See our services</a>
+      </div>
+      <div class="trust">
+        <span><b>Free</b> strategy call</span>
+        <span><b>24h</b> reply time</span>
+        <span><b>Clear</b> monthly reporting</span>
+      </div>
+    </div>
+    <div class="panel" aria-label="Example of monthly lead growth">
+      <div class="row">
+        <div><small>Leads this month</small><div class="big">+184%</div></div>
+        <span class="up">Growing</span>
+      </div>
+      <div class="bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="chips"><span>SEO</span><span>Meta Ads</span><span>Google Ads</span><span>Web</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="wrap">
+    <div class="head">
+      <h2>Everything you need to get found and get leads</h2>
+      <p>Pick one service or combine all three. Each one is built around enquiries and sales, not vanity numbers.</p>
+    </div>
+    <div class="grid">
+      <article class="card">
+        <div class="ic"><svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+        <h3>Web Development</h3>
+        <p>Fast, mobile-friendly websites designed to turn visitors into customers.</p>
+        <ul><li>Business and e-commerce sites</li><li>WordPress and custom builds</li><li>Speed and conversion focus</li></ul>
+      </article>
+      <article class="card">
+        <div class="ic"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+        <h3>SEO</h3>
+        <p>Rank higher on Google for the searches your customers make every day.</p>
+        <ul><li>Keyword and competitor research</li><li>On-page and technical fixes</li><li>Content and link building</li></ul>
+      </article>
+      <article class="card">
+        <div class="ic"><svg viewBox="0 0 24 24"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/></svg></div>
+        <h3>Ads Management</h3>
+        <p>Meta Ads and Google Ads managed to lower your cost per lead.</p>
+        <ul><li>Facebook and Instagram campaigns</li><li>Google Search and Display ads</li><li>Tracking, testing and reporting</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="info">
+      <h2>Tell us about your project</h2>
+      <p>Share a few details and we will reply with a free, no-obligation plan for your business.</p>
+      <ul class="points">
+        <li>Free consultation, no commitment</li>
+        <li>Reply within one business day</li>
+        <li>Your details are never shared</li>
+      </ul>
+    </div>
+
+    <form id="lead_form" class="wp-form" action="https://api.web3forms.com/submit" method="POST" novalidate>
+      <input type="hidden" name="access_key" value="4831d82c-1718-4a58-96d9-436787e43b0a">
+      <input type="hidden" name="subject" value="New lead from your website">
+      <input type="hidden" name="from_name" value="Agency Website">
+      <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+      <div class="f2">
+        <label>Name
+          <input type="text" name="name" placeholder="Your full name" required autocomplete="name">
+        </label>
+        <label>Email
+          <input type="email" name="email" placeholder="you@company.com" required autocomplete="email">
+        </label>
+      </div>
+      <div class="f2">
+        <label>WhatsApp / Phone
+          <input type="tel" name="phone" placeholder="+880 1XXX-XXXXXX" required autocomplete="tel">
+        </label>
+        <label>Service required
+          <select name="service" required>
+            <option value="" disabled selected>Select a service</option>
+            <option>Web Development</option>
+            <option>SEO</option>
+            <option>Meta Ads</option>
+            <option>Google Ads</option>
+            <option>Multiple services</option>
+          </select>
+        </label>
+      </div>
+      <label>Message
+        <textarea name="message" placeholder="Tell us about your business and goals" required></textarea>
+      </label>
+      <button type="submit" class="btn" id="submitBtn">Send my request</button>
+      <p id="status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap">© <span id="yr"></span> GrowthCraft. Web Development, SEO and Ads.</div></footer>
+
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+window.dataLayer = window.dataLayer || [];
+
+// Track CTA click in GTM
+document.getElementById('heroCta').addEventListener('click', function(){
+  window.dataLayer.push({event:'cta_click', cta_name:'hero_free_consultation'});
+});
+
+const form = document.getElementById('lead_form');
+const btn = document.getElementById('submitBtn');
+const status = document.getElementById('status');
+
+form.addEventListener('submit', async function(e){
+  e.preventDefault();
+  status.className = ''; status.textContent = '';
+  if(!form.checkValidity()){ form.reportValidity(); return; }
+
+  const label = btn.textContent;
+  btn.textContent = 'Sending...'; btn.disabled = true;
+
+  try{
+    const res = await fetch(form.action, {
+      method:'POST',
+      headers:{'Accept':'application/json'},
+      body:new FormData(form)
+    });
+    const data = await res.json();
+    if(res.ok && data.success){
+      status.className = 'ok';
+      status.textContent = 'Thank you! Your request is sent. We will contact you soon.';
+      window.dataLayer.push({event:'generate_lead', form_name:'lead_form', service:form.service.value});
+      form.reset();
+    }else{
+      status.className = 'err';
+      status.textContent = 'Could not send: ' + (data.message || 'please try again.');
+    }
+  }catch(err){
+    status.className = 'err';
+    status.textContent = 'Something went wrong. Please check your connection and try again.';
+  }finally{
+    btn.textContent = label; btn.disabled = false;
+  }
+});
+</script>
+</body>
+</html>
